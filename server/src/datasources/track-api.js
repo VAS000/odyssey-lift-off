@@ -10,7 +10,7 @@ class TrackAPI extends RESTDataSource {
     return this.get('tracks');
   }
 
-  getAuthorMethod(authorId) {
+  getAuthor(authorId) {
     return this.get(`author/${authorId}`);
   }
 }
